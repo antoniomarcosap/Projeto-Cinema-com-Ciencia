@@ -135,8 +135,8 @@ GitHub.sublime-settings
 !.vscode/extensions.json 
 .history
 
-/img/*
-*.jpg
-*.jpeg
-*.png
-*.svg
+img/*
+.jpg
+.jpeg
+.png
+.svg
