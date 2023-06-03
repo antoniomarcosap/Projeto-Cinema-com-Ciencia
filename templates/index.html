@@ -10,6 +10,20 @@
 </head>
 <body>
 
+    <header>
+        <div id="main-menu">
+            <div id="logo">
+                <img src="{% static '/img/logo.png' %}" id="img-logo" alt="logo">
+            </div>
+            <div id="btn-mobile-menu">
+                MENU
+                <img src="{% static '/img/btn-mobile-menu.svg' %}" id="btn-mobile-icon">
+            </div>
+        </div>
+    </header>
+
+
+
     {% block 'body' %} {% endblock %}
     
 </body>

@@ -1,4 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+#main-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#btn-mobile-menu {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #4d4d4d;
+    cursor: pointer;
+}
+
+#btn-mobile-icon {
+    height: 40px;
+}
+
+section {
+    width: 100%;
+}
+
+#logo img{
+    height: 50px;
+    cursor: pointer;
+}
+
+#top-home {
+    background: url("../img/img1-slide.jpg") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 76px);
+    opacity: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-presentation {
+    text-align: center;
+    padding: 10px;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+}
+
+#intro-home {
+    padding: 20px;
+}
+
+#intro-home h3{
+    margin: 0;
+    padding: 10px 0;
 }
