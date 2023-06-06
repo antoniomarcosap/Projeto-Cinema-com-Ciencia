@@ -58,6 +58,11 @@ section {
 
 #intro-home {
     padding: 20px;
+    box-sizing: border-box;
+}
+
+#img-sobre {
+    width: 100%;
 }
 
 #intro-home h3{
